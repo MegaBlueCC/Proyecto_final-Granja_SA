@@ -1,0 +1,74 @@
+/*Header*/
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: $colorPrimario;
+    position: fixed;
+    // z-index: 1000;
+    .contNav{
+        width: 80%;
+        height: auto;
+        margin: auto;        
+        .cont__logo{
+            width: 40%;
+            float: left;
+            .cont__img{
+                width: 25%;
+                padding-top: 10px;
+            }
+        }
+        .menu__lista{
+            width: 50%;
+            float: right;
+            list-style: none;
+            text-align: center;
+            overflow: hidden;
+            padding-top: 40px;
+            .menu__nav-li{
+                display: inline-block;
+                padding: 10px;
+                transition: all ease-in-out 250ms;
+                .menu__nav-li--active{
+                    color: $colorTerciario;
+                    font-size: 1em;
+                    text-decoration: none;
+                    letter-spacing: 1px;
+                    font-family: $tipografiaSecundaria;
+                    text-transform: uppercase;
+                    text-shadow: $sombrasTexto;
+                }
+                .menu__nav-link{
+                    color: $colorComplementarioUno;
+                    font-size: 1em;
+                    text-decoration: none;
+                    letter-spacing: 1px;
+                    font-family: $tipografiaSecundaria;
+                    text-shadow: $sombrasTexto;
+                    &:hover{
+                        color: $colorTerciario;
+                    }
+                }
+            }
+            
+        }
+        .hide{
+            padding: 6px;
+            font-size: 18px;
+            float: right;
+            color: $colorComplementarioDos;
+            cursor: pointer; 
+            font-family: $tipografiaSecundaria;
+            display: none;
+            letter-spacing: 1px;
+            text-shadow: $sombrasTexto;
+            @media screen and (min-width: 200px) and (max-width:450px) {
+                display: block;
+            }
+            .hide__icon{
+                color: $colorSecundario;
+                padding: 5px;                
+            }
+        }    
+    }
+}

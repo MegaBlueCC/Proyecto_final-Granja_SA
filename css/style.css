@@ -1,2 +1,89 @@
 @charset "UTF-8";
 /*Configuración general*/
+/*Body reset*/
+/*Body reset*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/*Colores*/
+/*Colores*/
+/*Tipografía*/
+/*Tipografías*/
+/*Botones*/
+/*Botones*/
+/*Sombras*/
+/*Sombras Texto*/
+/*Sombras Cajas*/
+/*Whatsapp*/
+/*Whatsapp*/
+/*Header*/
+/*Header*/
+header {
+  width: 100%;
+  height: auto;
+  background-color: #95BF56;
+  position: fixed; }
+  header .contNav {
+    width: 80%;
+    height: auto;
+    margin: auto; }
+    header .contNav .cont__logo {
+      width: 40%;
+      float: left; }
+      header .contNav .cont__logo .cont__img {
+        width: 25%;
+        padding-top: 10px; }
+    header .contNav .menu__lista {
+      width: 50%;
+      float: right;
+      list-style: none;
+      text-align: center;
+      overflow: hidden;
+      padding-top: 40px; }
+      header .contNav .menu__lista .menu__nav-li {
+        display: inline-block;
+        padding: 10px;
+        transition: all ease-in-out 250ms; }
+        header .contNav .menu__lista .menu__nav-li .menu__nav-li--active {
+          color: #BF212E;
+          font-size: 1em;
+          text-decoration: none;
+          letter-spacing: 1px;
+          font-family: "Merriweather", serif;
+          text-transform: uppercase;
+          text-shadow: 1px 1px 9px #F27E93; }
+        header .contNav .menu__lista .menu__nav-li .menu__nav-link {
+          color: #E1F2BB;
+          font-size: 1em;
+          text-decoration: none;
+          letter-spacing: 1px;
+          font-family: "Merriweather", serif;
+          text-shadow: 1px 1px 9px #F27E93; }
+          header .contNav .menu__lista .menu__nav-li .menu__nav-link:hover {
+            color: #BF212E; }
+    header .contNav .hide {
+      padding: 6px;
+      font-size: 18px;
+      float: right;
+      color: #F2F0E4;
+      cursor: pointer;
+      font-family: "Merriweather", serif;
+      display: none;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 9px #F27E93; }
+      @media screen and (min-width: 200px) and (max-width: 450px) {
+        header .contNav .hide {
+          display: block; } }
+      header .contNav .hide .hide__icon {
+        color: #F27E93;
+        padding: 5px; }
+
+/*Footer*/
+/*Footer*/
+.footer__cont {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  padding-top: 20em; }
