@@ -80,10 +80,39 @@ header {
         color: #F27E93;
         padding: 5px; }
 
-/*Footer*/
-/*Footer*/
-.footer__cont {
+/*Main*/
+/*Main*/
+main {
   width: 100%;
-  height: 50px;
-  background-color: red;
+  position: absolute; }
+
+/*Footer*/
+/*Footer*/
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #95BF56;
   padding-top: 20em; }
+  footer .footer__cont {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flexbox;
+    flex-direction: row;
+    overflow: hidden; }
+    footer .footer__cont .cont_text {
+      width: 50%;
+      height: 20px;
+      float: left;
+      display: flexbox;
+      flex-direction: column; }
+      footer .footer__cont .cont_text .cont_text-txt {
+        font-family: "Merriweather", serif;
+        font-size: 1em;
+        color: #E1F2BB; }
+    footer .footer__cont .cont_redes {
+      width: 50%;
+      height: 20px;
+      float: right;
+      display: flexbox;
+      flex-direction: row; }

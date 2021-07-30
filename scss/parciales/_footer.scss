@@ -1,8 +1,42 @@
 /*Footer*/
 
-.footer__cont{
+footer{
     width: 100%;
-    height: 50px;
-    background-color: red;
+    height: auto;
+    background-color: $colorPrimario;
     padding-top: 20em;
+    // display: inline;
+    // position: relative;
+    
+    .footer__cont{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: flexbox;
+        flex-direction: row;
+        overflow: hidden;
+            .cont_text{
+            width: 50%;
+            height: 20px;
+            float: left;   
+            display: flexbox;
+            flex-direction: column;         
+                .cont_text-txt{
+                font-family: $tipografiaSecundaria;
+                font-size: 1em;
+                color: $colorComplementarioUno;
+                }
+            }
+        .cont_redes{
+            width: 50%;
+            height: 20px;
+            float: right;
+            display: flexbox;
+            flex-direction: row;
+            .cont_redes-link{
+
+            }
+
+        }
+    }
 }
